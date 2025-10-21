@@ -52,7 +52,7 @@ pipeline {
                     docker pull dhanushgubba/order-service:latest &&
                     docker stop order-service || true &&
                     docker rm order-service || true &&
-                    docker run -d -p 8083:8083 --name order-service dhanushgubba/order-service:latest
+                    docker run -d -p 8084:8084 --name order-service dhanushgubba/order-service:latest
                 	'
            		 	"""
         		}
